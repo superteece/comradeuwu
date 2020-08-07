@@ -1,5 +1,8 @@
-body {
-  background-image: url("flamingo.gif");
+#animated-gif-container {
+  background-image: url(flamingo.gif);
   background-repeat: repeat;
-  background-size: -50%;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  padding-left: 20px;
 }
